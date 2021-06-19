@@ -27,3 +27,5 @@ The `good_urls` refer to a list containing the URLs of the images that one wishe
 5) `visualize_act_maps_vgg_16.py`: same functionality as in the `visualize_act_maps_resnet_18.py` code (i.e., visualize the activation maps of the top PCACE channels), but in the VGG-16 architecture instead of ResNet-18.
 
 6) `visualizing_cam.py`: producing CAM visualizations with ResNet-18 following the code from https://github.com/zhoubolei/CAM. Uses PyTorch to load the model. Returns the CAM visualization of the input image (in this case, given with a URL).
+
+## Dependencies
