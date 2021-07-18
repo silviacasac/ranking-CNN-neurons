@@ -28,9 +28,4 @@ The `good_urls` refer to a list containing the URLs of the images that one wishe
 
 6) `visualizing_cam.py`: producing CAM visualizations with ResNet-18 following the code from https://github.com/zhoubolei/CAM. Uses PyTorch to load the model. Returns the CAM visualization of the input image (in this case, given with a URL).
 
-7) `london_kdd_examples_slevel.csv`: The .csv file contains metadata for the 300 street level images we used in our experiments. In our experiments we used images from Google Street View. More information on these images and how to use them are available from here: https://developers.google.com/maps/documentation/streetview/overview.
-
-  `gsv_panoid`: correspods to the 'pano' parameter, which is a specific panorama ID for the image. 
-  `gsv_lat, gsv_lng`: corresponds the the location coordinates for the image. 
-
-  Both `gsv_panoid` and `gsv_lat`, `gsv_lng` parameters can be used to access the images used in our experiments. 
+7) `london_kdd_examples_slevel.csv`: The .csv file contains metadata for the 300 street level images we used in our experiments. In our experiments we used images from Google Street View. More information on these images and how to use them are available from here: https://developers.google.com/maps/documentation/streetview/overview. `gsv_panoid`: correspods to the 'pano' parameter, which is a specific panorama ID for the image. `gsv_lat, gsv_lng`: corresponds the the location coordinates for the image. Both `gsv_panoid` and `gsv_lat`, `gsv_lng` parameters can be used to access the images used in our experiments. 
